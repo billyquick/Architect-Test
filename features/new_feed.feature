@@ -1,6 +1,7 @@
-Feature: Testing behave
+Feature: Create a New Feed with no data
 
-  Scenario: run a simple test
-     Given we have behave installed
-      When we implement a test
-      Then behave will test it for us!
+  Scenario: 
+     Given I am on the service-periods page and logged in
+      When I click on New Feed on the Service-Periods page
+      And I click on Save on the New page
+      Then the submission fails
