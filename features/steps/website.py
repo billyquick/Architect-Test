@@ -3,7 +3,7 @@ from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 from selenium.common.exceptions import NoSuchElementException
 
-driver = webdriver.Chrome("C:/Users/Bill/Downloads/chromedriver_win32/chromedriver.exe")
+driver = webdriver.Chrome("/Users/billyquick/Downloads/chromedriver")
 
 @given('I am on the service-periods page and logged in')
 def step_impl_goto_serviceperiods(self):
